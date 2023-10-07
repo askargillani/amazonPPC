@@ -1,0 +1,40 @@
+.down-container {
+    width:100%;
+    position: fixed;
+    top: 100px;
+    left:0px;
+    display: flex;
+}
+
+.left-container {
+    height: 500px;
+    width: 50%;
+    display: flex;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    font-size: 30px;
+    letter-spacing: 2px;
+    line-height: 40px;
+    color: black;
+    padding-left: 50px;
+}
+
+.right-container {
+    height: 440px;
+    flex-grow: 1;
+    width: 50%;
+    padding: 30px;
+}
+
+.left-container-inner-text {
+    margin: auto;
+}
+
+.right-container > img {
+    width: 100%;
+    height: 100%;
+}
+
+.mat-icon {
+    margin-right: 10px;
+}
