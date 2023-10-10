@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-display-card',
@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./display-card.component.css']
 })
 export class DisplayCardComponent {
+  @Input() mat_icon_string:string = "";
+  @Input() title_string: string = "";
+  @Input() content_string: string = "";
 
+  constructor(){
+    
+  }
 }
