@@ -10,13 +10,15 @@ import { DisplayCardComponent } from './shared/display-card/display-card.compone
 import {MatCardModule} from '@angular/material/card';
 import {MatDividerModule} from '@angular/material/divider';
 import {MatProgressBarModule} from '@angular/material/progress-bar';
+import { ServicesCardComponent } from './shared/services-card/services-card.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     WebHeaderComponent,
-    DisplayCardComponent
+    DisplayCardComponent,
+    ServicesCardComponent
   ],
   imports: [
     BrowserModule,
