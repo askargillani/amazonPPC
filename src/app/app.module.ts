@@ -14,6 +14,7 @@ import { ServicesCardComponent } from './shared/services-card/services-card.comp
 import { ReviewsCarouselComponent } from './shared/reviews-carousel/reviews-carousel.component';
 import { CarouselModule } from 'ngx-bootstrap/carousel';
 import { FormsModule } from '@angular/forms';
+import { WebFooterComponent } from './shared/web-footer/web-footer.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { FormsModule } from '@angular/forms';
     WebHeaderComponent,
     DisplayCardComponent,
     ServicesCardComponent,
-    ReviewsCarouselComponent
+    ReviewsCarouselComponent,
+    WebFooterComponent,
   ],
   imports: [
     BrowserModule,

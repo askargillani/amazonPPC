@@ -4,3 +4,7 @@
     width: 100px;
     margin-bottom: 10px;
 }
+
+::ng-deep ._carousel{
+    color: black !important;
+}
