@@ -25,6 +25,9 @@
 .right-container {
     width: 40%;
     height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 30px;
 }
 
 .service-name {
@@ -41,3 +44,4 @@
     height: auto;
     color: #f3a008;
 }
+

@@ -73,3 +73,14 @@
     margin-right: 20px;
 }
 
+.reviews-container {
+    height: 600px;
+    background-color: black;
+    padding: 80px;
+}
+
+.inner-reviews-container {
+    display: flex;
+    justify-content: center;
+}
+

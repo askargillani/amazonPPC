@@ -11,14 +11,17 @@ import {MatCardModule} from '@angular/material/card';
 import {MatDividerModule} from '@angular/material/divider';
 import {MatProgressBarModule} from '@angular/material/progress-bar';
 import { ServicesCardComponent } from './shared/services-card/services-card.component';
-
+import { ReviewsCarouselComponent } from './shared/reviews-carousel/reviews-carousel.component';
+import { CarouselModule } from 'ngx-bootstrap/carousel';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
     AppComponent,
     WebHeaderComponent,
     DisplayCardComponent,
-    ServicesCardComponent
+    ServicesCardComponent,
+    ReviewsCarouselComponent
   ],
   imports: [
     BrowserModule,
@@ -27,7 +30,9 @@ import { ServicesCardComponent } from './shared/services-card/services-card.comp
     MatIconModule,
     MatCardModule,
     MatDividerModule,
-    MatProgressBarModule
+    MatProgressBarModule,
+    CarouselModule.forRoot(),
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
