@@ -2,6 +2,7 @@
     height: 200px;
     width: 400px;
     border-radius: 20px;
+    margin: 20px;
 }
 
 .display-card:hover {
@@ -43,5 +44,47 @@
     width: auto;
     height: auto;
     color: #f3a008;
+}
+
+@media screen and (max-width: 1225px) {
+    .display-card {
+        height: 230px;
+        width: 270px;
+        border-radius: 20px;
+        margin: 10px;
+    }
+
+    .card-icon {
+        font-size: 40px;
+        width: auto;
+        height: auto;
+        color: #f3a008;
+    }
+
+    .service-name {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 30px;
+        font-weight: 200;
+        line-height: 40px;
+        line-height: 50px;
+    }
+}
+
+@media screen and (max-width: 781px) {
+    .display-card {
+        height: 230px;
+        width: 400px;
+        border-radius: 20px;
+        margin: 10px;
+    }        
+}
+
+@media screen and (max-width: 425px) {
+    .display-card {
+        height: 230px;
+        width: 270px;
+        border-radius: 20px;
+        margin: 10px;
+    }        
 }
 
