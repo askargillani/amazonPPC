@@ -20,6 +20,11 @@
     
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 .right-container {
     margin: 0px 0px 0px 10px;
 }
